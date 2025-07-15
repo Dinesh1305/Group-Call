@@ -41,6 +41,13 @@ public class UserController {
 	}
 	
 	
+	
+	@GetMapping("signup")
+	public String signup()
+	{
+		return "signup";
+	}
+	
 	@PostMapping("logout")
 	public void logout(String email)
 	{
